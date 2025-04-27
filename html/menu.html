@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menü</title>
+    <link rel="stylesheet" href="../lib/webfonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/menue.min.css">
+    <link rel="stylesheet" href="../css/warenkorb.min.css">
+    <link rel="stylesheet" href="../css/navigation.min.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+</head>
+
+<body class="body">
+    <!-- Header und Navigation hier... -->
+    <header class="header" id="main-header">
+        <nav class="navbar navbar-expand-lg navbar bg fixed-top" id="navbar">
+            <div class="container-fluid" id="navbar-container">
+                <div class="d-flex justify-content-between align-items-center w-100" id="navbar-flex">
+                    <!-- Toggle-Button für kleine Bildschirme -->
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        id="navbar-toggler">
+                        <span class="navbar-toggler-icon" id="toggler-icon"></span>
+                    </button>
+
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="../index.html" id="navbar-logo">
+                        <span id="logo-text">BURGERBURST</span>
+                        <i class="fas fa-hamburger" id="logo-icon"></i> <!-- FontAwesome Burger Icon -->
+                    </a>
+
+
+                    <!-- Warenkorb-Icon (für kleine Displays) -->
+                    <div class="icons d-lg-none" id="small-screen-icons">
+                        <i class="fas fa-shopping-cart cartIconClass" id="small-cart-icon"></i>
+                        <span class="cart-count" id="small-cart-count"></span>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <!-- Nav-Links -->
+                    <ul class="navbar-nav" id="nav-list">
+                        <li class="nav-item active" id="home-item">
+                            <a class="nav-link" href="../index.html" id="home-link">Home</a>
+                        </li>
+                        <li class="nav-item" id="menu-item">
+                            <a class="nav-link" href="./menu.html" id="menu-link">Menü</a>
+                        </li>
+                        <li class="nav-item" id="contact-item">
+                            <a class="nav-link" href="./kontakt.html" id="contact-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Warenkorb-Icon (für größere Displays) -->
+                <div class="icons d-none d-lg-block" id="large-screen-icons">
+                    <i class="fas fa-shopping-cart cartIconClass" id="large-cart-icon"></i>
+                    <span class="cart-count" id="large-cart-count"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Ende der Navigationsleiste -->
+
+    <main class="main">
+
+        <!-- Unterer Navigationsbereich -->
+        <div class="unterenavigations-container">
+            <div class="unterenavigations-inner">
+                <button id="scroll-left" class="arrow-btn"><i class="fas fa-arrow-left"></i></button>
+                <div class="navigation">
+                    <!-- Die Navigationselemente werden hier dynamisch eingefügt -->
+                </div>
+                <button id="scroll-right" class="arrow-btn"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Menücontainer -->
+        <div class="container">
+            <!-- Kategorien und Menüelemente werden durch das Script eingefügt -->
+        </div>
+    </main>
+
+    <!-- Warenkorb -->
+    <aside id="cart-panel">
+        <div class="header-container">
+            <h1 id="warenkorb-ueberschrifft">Warenkorb</h1>
+            <!-- Tischnummer Anzeige -->
+            <p id="table-number"></p>
+            <i id="close-cart" class="fa-regular fa-circle-xmark close-cart"></i>
+        </div>
+        <div class="scroll-container">
+            <ul id="cart-items" class="cart-items-list"></ul>
+        </div>
+        <form class="checkout-form" id="checkout-form">
+            <div class="footer-container">
+
+                <!-- Schüler-Rabatt Checkbox -->
+                <div class="student-discount-option">
+                    <label for="studentDiscountCheckbox">Schüler-Rabatt:</label>
+                    <input type="checkbox" id="studentDiscountCheckbox" name="studentDiscount">
+                </div>
+
+                <div class="delivery-option">
+                    <label for="deliveryCheckbox">Liefern lassen:</label>
+                    <input type="checkbox" id="deliveryCheckbox" name="deliveryOption">
+                </div>
+
+                <div class="pickupTime-container">
+                    <label id="timeLabel" for="pickupHour">Abholzeit:</label>
+                    <select id="pickupHour" name="pickupHour" required></select>
+                    :
+                    <select id="pickupMinute" name="pickupMinute" required>
+                        <option value="sofort">Sofort</option>
+                    </select>
+                </div>
+
+                <!-- Gesamtsumme direkt unter Abholzeit -->
+                <div class="total-amount-container">
+                    <p id="total-amount">Gesamtsumme: 0€</p>
+                </div>
+
+                <div class="delivery-cost-container" style="display: none;">
+                    <label>Lieferkosten:</label>
+                    <span id="delivery-cost">2€</span>
+                </div>
+
+                <div class="delivery-address-container" style="display: none;">
+                    <label for="deliveryAddress">Lieferadresse:</label>
+                    <input type="text" id="deliveryAddress" name="deliveryAddress"
+                        placeholder="Geben Sie Ihre Adresse ein">
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="clear-cart">Warenkorb leeren</button>
+                <button onclick="orderViaWhatsApp(event)" class="whatsapp-order-btn">Per WhatsApp bestellen</button>
+            </div>
+        </form>
+    </aside>
+
+
+
+    <!-- Das Modal für die Extras -->
+    <div id="extrasModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Extras</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Geben Sie Ihre zusätzlichen Wünsche ein:</p>
+                    <textarea id="extrasText" rows="4" cols="50"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="closeExtrasModal">Schließen</button>
+                    <button type="button" class="btn btn-primary" id="saveExtras">Speichern</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="extraModulWarenkorb" tabindex="-1" role="dialog"
+        aria-labelledby="extraModulWarenkorbLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="extraModulWarenkorbLabel">Extras bearbeiten</h5>
+                </div>
+                <div class="modal-body">
+                    <textarea id="extrasTextarea" class="form-control"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        id="closeExtrasBtn">Schließen</button>
+                    <button type="button" class="btn btn-primary" id="saveExtrasBtn">Speichern</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Ende des Warenkorbs -->
+
+    <!-- Das Modal für die Details -->
+    <div id="detailsModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Details</h5>
+                </div>
+                <div class="modal-body" id="detailsText">
+                    <!-- Die Details werden hier dynamisch eingefügt -->
+                </div>
+                <div class="modal-info-text my-3 py-3 mx-3 px-3">Wir stellen dir stets relevante Informationen zur
+                    Verfügung, die wir von
+                    unseren Partnern über
+                    deren Produkte erhalten. In einigen Fällen können die angezeigten Informationen jedoch
+                    unvollständig, automatisch generiert und/oder validiert worden sein.
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Das Modal für die Standardoptionen -->
+    <div id="optionsModal" class="modal fade" tabindex="-1" role="document">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><span id="productTitle"></span></h5>
+                </div>
+                <div class="modal-body">
+                    <h6 style="font-weight: bold;">Beschreibung</h6>
+                    <p id="productDescription"></p> <!-- Platzhalter für die Produktbeschreibung -->
+                    <!-- Hier erscheinen die Artikel und Extras -->
+                    <h6 id="optionsTitle" style="font-weight: bold;">Optionen</h6>
+                    <form id="optionsForm">
+                        <!-- Die Checkboxen -->
+                    </form>
+                    <div class="info-list-section">
+                        <h6 id="additiveTitle" style="font-weight: bold;">Zusatzstoffe</h6>
+                        <ul id="additiveList"></ul>
+                    </div>
+
+                    <!-- Allergene-Liste -->
+                    <div class="info-list-section">
+                        <h6 id="allergensTitle" style="font-weight: bold;">Allergene</h6>
+                        <ul id="allergensList"></ul>
+                    </div>
+                    <p>Weitere Wünsche:
+                        <button class="btn-icon">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+                    </p>
+                    <!-- Hier ist der neue Platz für die "weiteren Wünsche" -->
+                    <p id="extraOptionsDisplay"></p>
+                    <p>Anzahl:
+                        <select id="productQuantity">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </p>
+
+                </div>
+                <div class="modal-info-text my-3 py-3 mx-3 px-3">Wir stellen dir stets relevante Informationen zur
+                    Verfügung, die wir von
+                    unseren Partnern über
+                    deren Produkte erhalten. In einigen Fällen können die angezeigten Informationen jedoch
+                    unvollständig, automatisch generiert und/oder validiert worden sein.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                        id="closeOptionsModal">Schließen</button>
+                    <button type="button" class="btn btn-primary" id="saveOptions">In den Warenkorb</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer pt-md-3 pb-md-2">
+        <div class="container-fluid">
+            <div class="row footer-row">
+                <!-- Erste Spalte -->
+                <div class="col-12 col-md-4">
+                    <p class="text-center">&copy; 2025 Adrian Eberhardt</p>
+                </div>
+
+                <!-- Zweite Spalte -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex justify-content-center">
+                        <a class="footer-links d-flex flex-column justify-content-center"
+                            href="./impressum.html">Impressum</a>
+                        <a class="footer-links d-flex flex-column justify-content-center"
+                            href="./datenschutz.html">Datenschutz</a>
+                    </div>
+                </div>
+
+                <!-- Dritte Spalte -->
+                <div class="col-12 col-md-4">
+                    <p class="text-center">
+                        <img src="../images/logo.png" alt="Logo" class="webuniversal-logo">
+                        <a href="https://adrianeberhardt.com/">Adrian Eberhardt</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loader -->
+
+
+    <div class="loader">
+        <img src="../images/loader.gif" alt="loader-gif">
+    </div>
+
+
+
+    <!-- JavaScript-Bibliotheken -->
+    <script type="text/javascript" src="../lib/jquery/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- Eigene JavaScript-Dateien -->
+    <script type="module" src="../js/main.js"></script>
+
+
+
+</body>
+
+</html>

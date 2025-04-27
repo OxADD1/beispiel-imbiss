@@ -1,0 +1,124 @@
+// ======================
+// IMPORTS
+// ======================
+@import 'style';
+
+// ======================
+// FOOTER STYLES
+// ======================
+$footer-font-size: 12px;
+$footer-firmenlogo-width: 20px;
+$footer-firmenlogo-abstand: 8px;
+
+// Allgemeine Stilisierung des Footers
+.footer {
+    height: $footer-height;
+    z-index: 9999;
+    font-size: $footer-font-size;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $background;
+    color: $black;
+
+    // Stilisierung des zentrierten Textes im Footer
+    .text-center {
+        font-size: $footer-font-size;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        // Spezielle Stilisierung für den Webuniversal-Link im Footer
+        a[href="http://www.webuniversal.de"] {
+            display: flex;
+            align-items: center;
+            color: $black;
+            font-size: $footer-font-size;
+            &:hover {
+                color: $primary;
+            }
+        }
+
+        // Stilisierung des Webuniversal-Logos
+        img.webuniversal-logo {
+            margin: 0;
+            width: $footer-firmenlogo-width;
+            height: auto;
+            margin-right: $footer-firmenlogo-abstand;
+            vertical-align: middle;
+            display: inline-block;
+        }    
+    }
+
+    // Grundlegende Stilisierung für Links im Footer(Datenschutz,Impressum)
+    a {
+        font-size: $footer-font-size;
+        text-decoration: none;
+        color: $black;
+        text-align: center;
+
+        // Stiländerung beim Hover für Links
+        &:hover {
+            color: $hover-primary;
+            text-decoration: none;
+        }
+    }
+}
+
+// Stilisierung der Flexbox-Row im Footer
+
+    .footer-row {
+        display: flex;
+        justify-content: center; // Hinzugefügt für die horizontale Zentrierung
+        align-items: center; // Hinzugefügt für die vertikale Zentrierung
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    // Spezielle Stilisierung für Links im Footer
+    .footer-links {
+        // Hover-Stil für diese Links
+        &:hover {
+            color: $primary;
+        }
+        &:first-child {
+            margin-right: 20px; // Abstand zum nächsten Element
+        }   
+        
+    }
+}
+
+@media (max-width: 991px) {
+    .footer { 
+        height: 70px;      // Verringert die Höhe des Footers. Passen Sie diesen Wert nach Bedarf an.
+        padding-top: 5px;  // Verringert den oberen Abstand.
+        padding-bottom: 0; // Verringert den unteren Abstand.
+        
+        // Anpassungen für den Text und das Logo bei kleineren Bildschirmen
+        .text-center {
+            margin-bottom: 0;
+            padding-top: 3px;
+            
+            a[href="http://www.webuniversal.de"] {
+                font-size: $footer-font-size;
+
+                img.webuniversal-logo {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-row {
+      justify-content: center; // Zentriert die Kinder der Flexbox horizontal
+      align-items: center;     // Zentriert die Kinder der Flexbox vertikal
+    }
+  }
+  

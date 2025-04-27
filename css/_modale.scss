@@ -1,0 +1,124 @@
+@import 'style';
+
+// Variablen für allgemeine Stile
+$ueberschrifft: 2rem;
+$ueberschrifft-klein: 1.75rem;
+$button-fontsize: 1rem;
+$modal-body-font-size: 1.5rem;
+$modal-info-font-size: 1rem;
+
+
+// Gemeinsame Styles für größere Bildschirme
+#optionsModal .modal-dialog,
+#detailsModal .modal-dialog,
+#extraModulWarenkorb .modal-dialog,
+#extrasModal .modal-dialog,
+#cart-panel {
+  margin-top: $header-height;
+  margin-bottom: $footer-height;
+}
+
+// Anpassungen für kleinere Bildschirme
+@media (max-width: 991px) {
+  #optionsModal .modal-dialog,
+  #detailsModal .modal-dialog,
+  #extraModulWarenkorb .modal-dialog,
+  #extrasModal .modal-dialog,
+  #cart-panel {
+    margin-top: $header-height-small;
+  }
+}
+
+
+
+
+
+.modal-title {
+    font-size: $ueberschrifft;
+    font-weight: bold;
+}
+
+h6{
+  font-size:$ueberschrifft-klein;
+}
+
+.modal-info-text {
+  color:$light;
+    font-size: $modal-info-font-size;
+}
+
+.modal-footer .btn {
+    font-size: $button-fontsize;
+    margin: 0.5rem;
+}
+
+// ====================
+// Z-Index Anpassungen
+// ====================
+
+#optionsModal{
+    z-index: 10003;
+}
+
+#detailsModal,
+#extrasModal {
+    z-index: 10004;
+}
+
+// =========================
+// Sonstige Styles
+// =========================
+#detailsModal ul,
+#optionsModal ul {
+  padding-left: 0;
+}
+
+#optionsForm div:last-child {
+  padding-bottom: 0.5rem;  
+}
+
+
+.btn-icon {
+    color: $primary;  // Farbe
+    border: none;     // Kein Rand
+    background: none; // Kein Hintergrund
+    padding: 0;       // Kein Innenabstand
+    font-size: $button-fontsize;  // Schriftgröße
+}
+
+#optionsForm div {
+    display: flex;            // Flexbox Layout
+    align-items: center;      // Zentrierung der Elemente vertikal
+}
+
+#optionsForm input[type="checkbox"] {
+    margin-right: 0.5rem;  // Rechter Außenabstand
+}
+
+
+// ==============================
+// Responsivität mit Media Queries
+// ==============================
+
+@media (max-width: 991px) {
+
+  
+    .modal-title {
+      font-size: $ueberschrifft * 0.7; // Verkleinert die Überschrift
+    }
+    h6{
+      font-size:$ueberschrifft-klein *0.7;
+    }
+  
+    .modal-body {
+      font-size: $modal-body-font-size * 0.7; // Verkleinert die Haupttextgröße
+    }
+  
+    .modal-info-text {
+      font-size: $modal-info-font-size * 0.6; // Verkleinert die Info-Textgröße
+    }
+  
+    .modal-footer .btn {
+      font-size: $button-fontsize * 0.7; // Verkleinert die Button-Textgröße
+    }
+}

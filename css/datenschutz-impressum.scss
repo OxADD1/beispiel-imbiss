@@ -1,0 +1,70 @@
+// Ihre Mobiltelefon-Stile
+.d-i {
+    font-size: 0.6rem;
+    margin-top: 130px;
+    h1 {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    h4 {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  // Stile für mittlere Bildschirme (ab 992px)
+  @media (min-width: 992px) {
+    .d-i {
+      font-size: 0.8rem; // leicht erhöhte Schriftgröße
+      margin-top: 100px; // Anpassen des oberen Abstands
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+      }
+      h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+      }
+      h4 {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+      }
+    }
+  }
+  
+  // Stile für größere Bildschirme (ab 1200px)
+  @media (min-width: 1200px) {
+    .d-i {
+      font-size: 1rem; // weitere Erhöhung der Schriftgröße
+      margin-top: 171px; // Anpassen des oberen Abstands
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+      }
+      h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+      }
+      h4 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  

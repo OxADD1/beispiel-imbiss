@@ -1,0 +1,65 @@
+.d-i {
+  font-size: 0.6rem;
+  margin-top: 130px;
+}
+.d-i h1 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.d-i h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.d-i h3 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.d-i h4 {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .d-i {
+    font-size: 0.8rem;
+    margin-top: 100px;
+  }
+  .d-i h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .d-i h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+  }
+  .d-i h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+  }
+  .d-i h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .d-i {
+    font-size: 1rem;
+    margin-top: 171px;
+  }
+  .d-i h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .d-i h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .d-i h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .d-i h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+}/*# sourceMappingURL=datenschutz-impressum.css.map */

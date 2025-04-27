@@ -1,0 +1,332 @@
+// ================================
+// Variablen für die Navigationsleiste
+// ================================
+
+$icon-font-size: 1.5rem; // Schriftgröße für die Icons
+$fontsize: 1.5rem; // Schriftgröße für die Navigationsleiste
+$fontsize-link: 1.2rem; // Schriftgröße für die Navigationsleiste
+// Importiere globale Stile
+@import 'style';
+
+// ================================
+// Obere navigation
+// ================================
+#navbar-container,
+#navbar {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+#navbar {
+    overflow-x: hidden;
+    padding: 1rem;
+    background-color: $primary;
+}
+
+#navbar-flex {
+    flex-wrap: wrap;
+}
+
+
+//mobile first
+
+@media (max-width: 991px) {
+
+    #logo-text {
+        text-transform: uppercase;
+        font-size: $fontsize * 0.8;
+        font-weight: bold;
+    }
+
+    #small-cart-icon {
+        font-size: $icon-font-size * 0.8;
+        transition: none;
+        padding: 0.5rem;
+        color: $black; // Damit das Symbol sich vom weißen Hintergrund abhebt
+
+        &:hover {
+            cursor: pointer;
+            transition: none;
+
+        }
+    }
+
+    #small-cart-count {
+        font-weight: bold;
+        font-size: $fontsize * 0.4;
+        color: black; // Setzt die Zählerfarbe auf Schwarz
+        position: absolute;
+        top: 2.2rem;
+        right: 1.5rem;
+    }
+
+    #nav-list .nav-link {
+        text-transform: uppercase;
+        font-size: $fontsize-link * 0.8;
+        font-weight: bold;
+        color: $white;
+
+        &:hover {
+            color: $black; // Ändert die Farbe des Links zu Schwarz beim Hovern
+        }
+    }
+}
+
+
+// Für größere Bildschirme (ab 992px)
+@media (min-width: 992px) {
+    #navbar-logo {
+        margin-left: 2rem; 
+    }
+    #logo-icon {
+        margin-left: 1rem;
+        font-size: $icon-font-size * 2; // Vergrößerte Schriftgröße für größere Bildschirme, z.B. 1.2-mal so groß
+    }
+
+    #logo-text {
+        text-transform: uppercase;
+        font-size: $fontsize * 2; // ähnlich wie oben
+        font-weight: bold;
+    }
+
+    #large-cart-icon {
+        cursor: pointer;
+        transition: none;
+        margin-left: 2rem;
+        font-size: $icon-font-size * 2.0;
+        padding: 1.5rem; // Du kannst den Abstand anpassen, je nachdem wie groß das Icon ist
+        color: $black;
+
+        &:hover {
+            transition: none;
+        }
+    }
+
+    #large-cart-count {
+        font-weight: bold;
+        font-size: $fontsize*0.7;
+        color: black; // Setzt die Zählerfarbe auf Schwarz
+        position: absolute;
+        top: 4rem;
+        right: 2.2rem;
+    }
+
+
+    #nav-list .nav-link {
+        text-transform: uppercase;
+        font-size: $fontsize-link *1.5; // Vergrößerte Schriftgröße für größere Bildschirme
+        font-weight: bold;
+        color: $white;
+
+        &:hover {
+            color: $black; // Ändert die Farbe des Icons zu Schwarz beim Hovern
+        }
+    }
+}
+
+// ================================
+// UNTENLIEGENDE NAVIGATIONSBARRE
+// ================================
+$navbar-item-fontsize: 1rem;
+$nav-item-height: 2rem;
+$nav-padding-vertical: 0;
+
+
+// Pfeile hintergrund
+//ausen drum herum
+.unterenavigations-container {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background-color: $primary;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 105px;
+
+    // Für größere Bildschirme (ab 992px)
+    @media (min-width: 992px) {
+        top: 105px;
+    }
+}
+
+
+// Innerer Container für die untere Navigation
+.unterenavigations-inner {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 75%;
+}
+
+// dort sind die nav items drin
+.navigation {
+    position: relative;
+    top: 103px;
+    width: 80%;
+    height: 38px; // Position der Items
+    z-index: 999;
+    background-color: $primary;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    // Verbergen der Standard-Scrollbar
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    // Für größere Bildschirme (ab 992px)
+    @media (min-width: 992px) {
+        top: 138px;
+    }
+}
+
+
+// Stil für jedes Element innerhalb der Navigationsbar
+.navbar-item {
+    background-color: darken($primary, 10%); 
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 0.5rem;
+    font-size: $navbar-item-fontsize;
+    font-weight: bold;
+    line-height: 1.2;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+    text-decoration: none;
+    transition: 0.3s;
+
+    // Anpassungen der Höhe und des Paddings mit Variablen
+    height: $nav-item-height;
+    padding-top: $nav-padding-vertical;
+    padding-bottom: $nav-padding-vertical;
+
+    // Aktiver Stil
+    &.active {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        transform: scale(1.2);
+        color: $white;
+    }
+
+    // Für größere Bildschirme (ab 992px)
+    @media (min-width: 992px) {
+        margin: 1.5rem;
+        font-size: $navbar-item-fontsize + 0.5;
+    }
+}
+
+
+// =================
+// PFEILTASTEN-STIL
+// =================
+$arrow-btn-width: 2rem;
+$arrow-btn-padding: 0.5rem;
+
+// Allgemeine Styles für Pfeiltasten und Navigations-Items
+.arrow-btn,
+.navbar-item {
+    height: $nav-item-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: $nav-padding-vertical;
+    padding-bottom: $nav-padding-vertical;
+}
+
+.arrow-btn {
+    background-color: $primary;
+    width: $arrow-btn-width;
+    height: $nav-item-height;
+    padding: $arrow-btn-padding;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    i {
+
+        font-size: $navbar-item-fontsize;
+        color: $black;
+        background-color: $primary;
+
+
+        // Effekt beim Klicken
+        &:active {
+            transform: scale(0.95); // Eine weniger drastische Skalierung beim Klicken
+        }
+    }
+
+}
+
+// Stil für allgemeine Pfeil-Tasten
+.arrow {
+    position: absolute;
+    top: 105px;
+    z-index: 1000;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+
+// Positionierungsstil für Pfeil-Tasten und Navigationsleiste
+.arrow-container,
+.navigation {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+// Positionierung der Scroll-Pfeile
+#scroll-left,
+#scroll-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+#scroll-left {
+    left: 5%;
+}
+
+#scroll-right {
+    right: 5%;
+}
+ 
+@media (max-width: 992px) {
+    .unterenavigations-container {
+        min-height: 45px;  // Reduziert von 105px
+    }
+
+    .navigation {
+        top: 75px;  // Reduziert von 103px
+        height: 38px;  // Reduziert von 38px
+    }
+
+     .navbar-item.active {
+        transform: none;  // Deaktiviert die Skalierung für das aktive Item
+        margin-left: 0.5rem;  // Setzt den linken Abstand zurück zum Standardwert
+        margin-right: 0.5rem;  // Setzt den rechten Abstand zurück zum Standardwert
+    }
+    
+    .navbar-item {
+        height: 2rem;  // Reduziert von 2rem
+    }
+}

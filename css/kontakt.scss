@@ -1,0 +1,94 @@
+@import 'style';
+
+$icon-contact-size: 2rem;
+$icon-contakt-mb: 1rem;
+$contact-box-pd: 4rem;
+$contact-box-abstand: 1rem;
+$contact-h3-size: 1rem;
+$contact-text-size: 0.8rem;
+
+
+/* Stil für die Karte */
+.custom-map {
+    margin-top: $header-height-small;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+    aspect-ratio: 2 / 1;
+    background-color: lightgray;
+    margin-bottom: 2rem;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Für sehr kleine Bildschirme (z.B. Handys im Hochformat) */
+@media (max-width: 991px) {
+    .custom-map {
+        max-width: 300px;
+        height: 150px;
+    }
+}
+
+
+.box-neu i {
+    font-size: $icon-contact-size; 
+    color: $primary;        /* Farbe des Icons */
+    margin-bottom: $icon-contakt-mb; /* Abstand nach unten */
+}
+
+.kontaktdaten-neu{
+    padding-bottom: $contact-box-pd;
+}
+
+.kontaktdaten-neu .grid-neu {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Verkleinert den Mindestwert für bessere Anpassung */
+    grid-gap: $contact-box-abstand;
+    align-items: flex-start;
+    width: 75%; 
+    margin: 0 auto; 
+
+    /* bei größeren Bildschirmen sollen alle drei Boxen in einer Zeile sein */
+    @media (min-width: 1200px) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: $contact-box-abstand*5;
+        margin-top: $contact-box-abstand*3;
+    }
+}
+
+.kontaktdaten-neu .grid-neu .box-neu {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.kontaktdaten-neu .grid-neu .box-neu h3{
+    margin-bottom: 5px 0;
+    font-size: $contact-h3-size;
+    color: $black;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.strasse {
+    display: block;
+    margin-bottom: 3px; // oder einen anderen geeigneten Wert
+}
+
+
+.kontaktdaten-neu .grid-neu .box-neu p,
+.kontaktdaten-neu .grid-neu .box-neu a{
+    display: block;
+    font-size: $contact-text-size;
+    color: $black;
+    line-height: 0.8;
+    white-space: nowrap;
+}
+
+.kontaktdaten-neu .grid-neu .box-neu a:hover{
+    text-decoration: underline;
+    color: $hover-primary;
+}

@@ -1,0 +1,2946 @@
+{
+    "navigation": [
+        {
+            "id": "burger",
+            "name": "Burger"
+        },
+        {
+            "id": "handmade-burger",
+            "name": "Handmade Burger"
+        },
+        {
+            "id": "pommes-wedges",
+            "name": "Pommes / Wedges"
+        },
+        {
+            "id": "salate",
+            "name": "Salate"
+        },
+        {
+            "id": "wraps",
+            "name": "Wraps"
+        },
+        {
+            "id": "fingerfood",
+            "name": "Fingerfood"
+        },
+        {
+            "id": "getraenke",
+            "name": "Getränke"
+        }
+    ],
+    "categories": [
+        {
+            "id": "burger",
+            "name": "Burger",
+            "image": "burger.jpg",
+            "description": "Ein Burger ist ein Versprechen für Geschmack, Qualität und Genuss.",
+            "items": [
+                {
+                    "name": "HAMBURGER",
+                    "price": 5,
+                    "description": "(mit Ketchup, Mayonnaise, sauren Gurken, Bull's Eye Barbecue Sauce, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "CHEESE BURGER",
+                    "price": 5.5,
+                    "description": "(mit Käse, Ketchup, Mayonnaise, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "CHILI CHEES BURGER ",
+                    "price": 6,
+                    "description": "(mit Jalapenos, Käse, Ketchup, Mayonnaise, Homemade Sweet & Chili Sauce, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "CHEGG BURGER",
+                    "price": 6.5,
+                    "description": "(mit Spiegelei, Käse, Ketchup, Mayonnaise, Bull's Eye Burger Sauce, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "BACON EGG BURGER",
+                    "price": 7.5,
+                    "description": "(mit Rinder bacon, Spiegelei, Ketchup, Bul's Eye Burger Sauce, Mayonnaise, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "BBQ BACON BURGER",
+                    "price": 7,
+                    "description": "(mit Rinder Bacon, Röstzwiebeln, Barbecue sauce, sauren Gurken und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        6
+                    ]
+                },
+                {
+                    "name": "HAWAII BURGER",
+                    "price": 6,
+                    "description": "(mit Ananas, Käse, Ketchup, Mayonnaise, sauren Gurken, Zwiebelit und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "CRISPY CHICKEN BURGER",
+                    "price": 5.5,
+                    "description": "(mit Crispy Chicken-Patty, Ketchup, Mayonnaise, Bull's Eye Burger Sauce, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "CRISPY CHICKEN BACON-EGG",
+                    "price": 8,
+                    "description": "(mit Spiegelei, Rinder hacon, Käse, Ketchup, Mayonnaise, Buls Eye Burger Sauce, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        12
+                    ]
+                },
+                {
+                    "name": "GRILLED CHICKEN BURGER",
+                    "price": 6.5,
+                    "description": "(mit Spiegelei, Rinder hacon, Käse, Ketchup, Mayonnaise, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        12
+                    ]
+                },
+                {
+                    "name": "VEGGIE BURGER (VEGETARISCH)",
+                    "price": 9,
+                    "description": "(mit Kartoffel-Gemüsepuffer, Ketchup, Mayonnaise, sauren Gurken,Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "name": "HALLOUMI BURGER (VEGETARISCH)",
+                    "price": 5.5,
+                    "description": "(mit Halloumi Grillkäse, Ketchup, Mayonnaise, Röstzwiebeln, Tomaten und sauren Gurken)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        6,
+                        12
+                    ]
+                },
+                {
+                    "name": "BURGERO BURGER",
+                    "price": 8.5,
+                    "description": "(Rindfleisch Patty, Halloumi Grillkäse, Ketchup, Mayonnaise, Bull's Eye Burger Sauce, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "200g anstatt 100g Fleich 3,50€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "name": "MOZZARELA BURGER",
+                    "price": 6,
+                    "description": "(mit Mozzarella Sticks, Ketchup, Mayonnaise, Röstzwiebeln, Tomaten und sauren Gurken)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "FISCHSTÄBCHEN BURGER",
+                    "price": 5,
+                    "description": "(Fischstäbchen mit Remoulade Sauce. Ketchup, Mayonnaise, sauren Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "name": "FISH BURGER",
+                    "price": 5.5,
+                    "description": "(Seelachsfilet mit Remoulade Sauce, sauren Gurken, Zwiebeln,Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "ONION RINGS BURGER",
+                    "price": 6.5,
+                    "description": "(mit Onion Rings, Rindfleisch, Ketchup, Mayonnaise, Bull's Eye Burger Sauce, Gurken, Zwiebeln und Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "CEVAPCICI BURGER",
+                    "price": 7,
+                    "description": "(mit Rind Cevapcici, Schmand, Ketchup, Mayonnaise, Zwiebeln und Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "MENU CLASSIC",
+                    "price": 11,
+                    "description": "(100 gr. Hamburger oder Cheeseburger + Pommes frites + Softdrink)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "handmade-burger",
+            "name": "Handmade Burger",
+            "image": "handmade-burger.jpg",
+            "description": "Handgemacht aus frischen Zutaten.",
+            "items": [
+                {
+                    "name": "HANDMADE HAMBURGER",
+                    "price": 7.5,
+                    "description": "(hausgemachte Rinderhacksteak-Patty, Bulls Eye Burger Sauce)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "HANDMADE CHEESE BURGER",
+                    "price": 8,
+                    "description": "(hausgemachte Rinderhacksteak-Patty 150 gr. / 300 gr.)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "HANDMADE CHILI BURGER",
+                    "price": 8.5,
+                    "description": "(hausgemachte Rinderhacksteak-Patty, Homemade Sweet & Chili Sauce)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "HANDMADE CHEGG BURGER",
+                    "price": 9,
+                    "description": "(hausgemachte Rinderhacksteak-Patty, Bull's Eye Burger Sauce)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "HANDMADE BACON-EGG BURGER",
+                    "price": 10,
+                    "description": "(hausgemachte Rinderhacksteak-Patty, Bull's Eye Burger Sauce)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "HANDMADE BBQ BURGER",
+                    "price": 9.5,
+                    "description": "(hausgemachte Rinderhacksteak-Patty)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        6
+                    ]
+                },
+                {
+                    "name": "HANDMADE HAWAI BURGER",
+                    "price": 8.5,
+                    "description": "(hausgemachte Rinderhacksteak-Patty)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        1,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "HANDMADE BURGERO BURGER",
+                    "price": 11,
+                    "description": "(haussemachte RinderhackSteak-Patty, Bul's Eye Burger Sauce",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "HANDMADE GRILLED CHICKEN",
+                    "price": 9,
+                    "description": "(Gegrillte Hähnchenschenkel ohne Knochen)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "HANDMADE CHICKEN BACON-EGG",
+                    "price": 11.5,
+                    "description": "(Gegrillte Hähnchenschenkel ohne Knochen)",
+                    "options": [
+                        "300g anstatt 150g Fleich 5,00€",
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "MENU HANDMADE",
+                    "price": 14,
+                    "description": "(150 gr. Handmade Hamburger oder Cheeseburger+ Pommes frites + Softdrink)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        1,
+                        3,
+                        4,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pommes-wedges",
+            "name": "Pommes / Wedges",
+            "image": "pommes-wedges.jpg",
+            "description": "Ob knusprig-dünne Pommes oder herzhaft dicke Wedges",
+            "items": [
+                {
+                    "name": "POMMES",
+                    "price": 3.5,
+                    "description": "(ca. 250 gr. mit einer Sauce nach Wah)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [],
+                    "additives": []
+                },
+                {
+                    "name": "CHEESE POMMES",
+                    "price": 4.5,
+                    "description": "(mit Cheddar Kase Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        8
+                    ]
+                },
+                {
+                    "name": "CHILI CHEESE POMMES",
+                    "price": 5,
+                    "description": "(mit Jalapenos, Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        8
+                    ]
+                },
+                {
+                    "name": "BACON CHEESE POMES",
+                    "price": 5.5,
+                    "description": "(mit Rind Bacon, Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        6,
+                        8
+                    ]
+                },
+                {
+                    "name": "BACON CHILI CHEESE POMMES",
+                    "price": 6,
+                    "description": "(mit Rind Bacon, Jalapenos, Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        6,
+                        8
+                    ]
+                },
+                {
+                    "name": "WEDGES / KARTOFFELECKEN",
+                    "price": 4,
+                    "description": "(ca. 250gr. Kartoffelecken miteiner Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [],
+                    "additives": []
+                },
+                {
+                    "name": "CHEESE WEDGES",
+                    "price": 5,
+                    "description": "(Kartoffelecken mit Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        8
+                    ]
+                },
+                {
+                    "name": "CHILI CHEESE WEDGES",
+                    "price": 5.5,
+                    "description": "(Kartoffelecken mit Jalapeios und Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        8
+                    ]
+                },
+                {
+                    "name": "BACON CHEESE WEDGES",
+                    "price": 6,
+                    "description": "(Kartoffelecken mit Rind Bacon und Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        6,
+                        8
+                    ]
+                },
+                {
+                    "name": "BACON CHILI CHEESE WEDGES",
+                    "price": 6.5,
+                    "description": "(Kartoffelecken mit Rind Bacon, Jalapeiios und Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        6,
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "salate",
+            "name": "Salate",
+            "image": "salate.jpg",
+            "description": "Unsere Salate sind ein Genuss für alle Sinne.",
+            "items": [
+                {
+                    "name": "GEMISCHTER SALAT",
+                    "price": 5.5,
+                    "description": "(mit Tomaten, Zwiebel, Dressing - Wahl aus Balsamico, French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "HÄHNCHENSTREIFEN SALAT",
+                    "price": 9.5,
+                    "description": "(mit Tomaten, Zwiebel, Dressing - Wahl aus Balsamico, French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "HAWAII SALAT",
+                    "price": 10,
+                    "description": "(mit Ananas, Hahnchenstreiten, Tomaten, wiebel, Dressing - Wait aus Balsamico,French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "name": "HALLOUMI GRILLKÄSE SALAT",
+                    "price": 8.5,
+                    "description": "(mit Halloumi Grilkase, Tomaten, Zwiebel, Dressing - Wahl aus Balsamico, French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "MOZZARELA SALAT",
+                    "price": 8.5,
+                    "description": "(Gemischter Salat mit Mozzarella Würfel, Tomaten, Zwiebel, Dressing --Wahl aus Balsamico, French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": [
+                        5
+                    ]
+                },
+                {
+                    "name": "THUNFISCHSALAT",
+                    "price": 8.5,
+                    "description": "(mit Tomaten, Zwiebel, Oressing - Wahl aus Balsamico, French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "d",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "BURGERO SPECIAL SALAT",
+                    "price": 10.5,
+                    "description": "(wit Rindfleisch Patty, Halloumi Grillkäse, Tomaten, Zwiebel, Dressing -Wahl aus Balsamico, French, Joghurt oder Kräuter-Dressing)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "wraps",
+            "name": "Wraps",
+            "image": "wraps.jpg",
+            "description": "Sanft gerollt und prall gefüllt",
+            "items": [
+                {
+                    "name": "HAMBURGER WRAP",
+                    "price": 6.5,
+                    "description": "(mit Rindfleisch Patty, Ketchup, Mayonnaise, Salat, sauren Gürken, Zwiebeln, Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "d",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "CHICKEN WRAP",
+                    "price": 7.5,
+                    "description": "(Mit Hahnchenbrustfilet Ketchup, Mayonnaise, Salat, sauren Gurken, Zwiebeln, Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "f",
+                        "g",
+                        "l",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "CHICKEN NUGGETS WRAP",
+                    "price": 6.5,
+                    "description": "(mit Long Crispy Chicken Nuggets, Ketchup, Mayonnaise, Salat und sauren Gurken)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "f",
+                        "g",
+                        "l",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "HALLOUMI GRILLKÄSE WRAP (VEGETARISCH)",
+                    "price": 7,
+                    "description": "(mit Halloumi Grillkase, Salat, Orangen-Senfsauce, Röstzwiebeln, Tomaten und sauren Gurken) ",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "MOZZARELLA STICKS WRAP (VEGETARISCH)",
+                    "price": 7.5,
+                    "description": "(Mit Mozzarella Sticks, Salat, Ketchup, Mayonnaise, Salat, sauren Gurken, Zwiebeln, Tomaten)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "THUNFISH WRAP",
+                    "price": 7.5,
+                    "description": "(mit Thunfish, Coleslaw, Mayonnaise, Salat, Tomaten und Zwiebel)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "c",
+                        "d",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "fingerfood",
+            "name": "Fingerfood",
+            "image": "fingerfood.jpg",
+            "description": "Kleine Häppchen, großer Geschmack",
+            "items": [
+                {
+                    "name": "LONG CRISPY CHICKEN NUGGETS",
+                    "price": 6,
+                    "description": "(5 Stück mit einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "f",
+                        "g",
+                        "l",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "CHESSE CHICKEN NUGGETS",
+                    "price": 7,
+                    "description": "(5 Stück mit Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "f",
+                        "g",
+                        "l",
+                        "m"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "BACON CHESSE CHICKEN NUGGETS",
+                    "price": 8,
+                    "description": "(5 Stück mit Rinder Bacon und Cheddar Käse Sauce)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "f",
+                        "g",
+                        "l",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "CHICKEN NUGGETS BOX",
+                    "price": 8,
+                    "description": "(5 Stück mit Pommes und einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "f",
+                        "g",
+                        "l",
+                        "m"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "CHICKEN WINGS BOX",
+                    "price": 8,
+                    "description": "(5 Stück mit Pommes und einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "ONION RINGS/ ZWIEBELRINGE BOX",
+                    "price": 6,
+                    "description": "(6 Stück mit Pommes und einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "MOZZARELA STICKS",
+                    "price": 6,
+                    "description": "(5 Stück mit einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "MOZZARELA STICKS BOX",
+                    "price": 8,
+                    "description": "(5 Stück mit Pommes und einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "FISHSTÄBCHEN BOX",
+                    "price": 6.5,
+                    "description": "(5 Stück mit Pommes und einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "d"
+                    ],
+                    "additives": [
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "name": "CEVAPCICI BOX",
+                    "price": 8.5,
+                    "description": "(8 Stuck Rind Cevapcici mit Pommes, Schmand und einer Sauce nach Wahl)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "c",
+                        "g",
+                        "m"
+                    ],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "getraenke",
+            "name": "Getränke",
+            "image": "getraenke.jpg",
+            "description": "Erfrischend, prickelnd und stets kühl serviert",
+            "items": [
+                {
+                    "name": "COCA COLA",
+                    "price": 2.5,
+                    "description": "330ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        1,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "id": 65,
+                    "name": "COCA COLA ZERO",
+                    "price": 2.5,
+                    "description": "330ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        1,
+                        3,
+                        4,
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "name": "FANTA ORANGE",
+                    "price": 2.5,
+                    "description": "330ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        1,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "id": 67,
+                    "name": "MEZZO MIX",
+                    "price": 2.5,
+                    "description": "330ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        1,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "SPRITE",
+                    "price": 2.5,
+                    "description": "330ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        4,
+                        7
+                    ]
+                },
+                {
+                    "name": "REDBULL",
+                    "price": 3,
+                    "description": "250ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        13
+                    ]
+                },
+                {
+                    "name": "ORANGE TETRA PAK",
+                    "price": 2.5,
+                    "description": "500ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        4,
+                        8,
+                        12
+                    ]
+                },
+                {
+                    "name": "MULTIVITAMIN TETRA PAK",
+                    "price": 2.5,
+                    "description": "500ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        4,
+                        8,
+                        12
+                    ]
+                },
+                {
+                    "name": "ICETEE PFIRSICH TETRA PAK",
+                    "price": 2.5,
+                    "description": "500ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": [
+                        4,
+                        8,
+                        12
+                    ]
+                },
+                {
+                    "name": "ORANGINA",
+                    "price": 3,
+                    "description": "250ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": []
+                },
+                {
+                    "name": "ORANGINA ROT",
+                    "price": 3,
+                    "description": "250ML",
+                    "options": [],
+                    "allergens": [],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "pizza",
+            "name": "Pizza",
+            "image": "pizza.jpg",
+            "description": "Unsere Pizzas sind ein Stück kulinarisches Italien auf Ihrem Teller.",
+            "items": [
+                {
+                    "name": "MARGHERITA",
+                    "price": 7.5,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "SALAMI",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": [
+                        5,
+                        9
+                    ]
+                },
+                {
+                    "name": "SCHINKEN",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "e",
+                        "f"
+                    ],
+                    "additives": [
+                        5,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "CHAMPIGNON",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "PAPRIKA",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "THUNFISCH",
+                    "price": 8.5,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "HAWAII",
+                    "price": 8.5,
+                    "description": "(Schinken, Ananas)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "d",
+                        "e",
+                        "f"
+                    ],
+                    "additives": [
+                        5,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "GEMISCHT",
+                    "price": 9,
+                    "description": "(Salami, Schinken, Pilze)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "e",
+                        "f",
+                        "g"
+                    ],
+                    "additives": [
+                        5,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "OLIVEN",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "PEPERONI",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "SUCUK",
+                    "price": 8.5,
+                    "description": "(mit türkischer Knoblauchwurst)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": [
+                        3,
+                        5,
+                        8
+                    ]
+                },
+                {
+                    "name": "MEERESFRÜCHTE",
+                    "price": 8.5,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "b",
+                        "d",
+                        "e",
+                        "f"
+                    ],
+                    "additives": [
+                        5,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "ARTISCHOCKEN",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "VEGETARISCH",
+                    "price": 8.5,
+                    "description": "(Paprika, Champignons, Artischocken)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "pide",
+            "name": "Pide",
+            "image": "pide.jpg",
+            "description": "Unsere Pides sind ein authentisches Geschmackserlebnis aus der türkischen Küche.",
+            "items": [
+                {
+                    "name": "PIDE MIT WEICHKÄSE",
+                    "price": 7,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "PIDE MIT KÄSE & SPINAT",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "PIDE MIT SUCUK",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "PIDE MIT HACKFLEISCH",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "pasta",
+            "name": "Pasta",
+            "image": "pasta.jpg",
+            "description": "Al dente gekochte Nudeln, verfeinert mit aromatischen Saucen",
+            "items": [
+                {
+                    "name": "PASTA: JIPPIJAPPA (VEGAN)",
+                    "price": 8,
+                    "description": "(Gebratene Weizennudeln in Soja Sauce mit Asia wok Gemüse)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "PASTA: SPAGHETTI BOLOGNESE",
+                    "price": 8,
+                    "description": "(Tomaten, Gemüsewürfel-Hackfleisch Sauce (100% Rind)",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                }
+            ]
+        },
+        {
+            "id": "seele",
+            "name": "Seele",
+            "image": "seele.jpg",
+            "description": "Unsere Seele verwöhnt mit traditionell schwäbischem Geschmack",
+            "items": [
+                {
+                    "name": "SEELE MIT KÄSE",
+                    "price": 8,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "SEELE MIT KÄSE & SPINAT",
+                    "price": 8.5,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                },
+                {
+                    "name": "SEELE MIT SUCUK",
+                    "price": 8.5,
+                    "description": "",
+                    "options": [
+                        "Ketchup (5)",
+                        "Mayonnaise (5,8,c,m)",
+                        "Sour Cream (9,g)",
+                        "Barbecue Sauce (m)",
+                        "Remoulade (c,g,l,m)",
+                        "Knoblauchsauce (c,g)",
+                        "Asia Sauce (a,c,f,g,m,o)",
+                        "Salsa (c,g,m)",
+                        "Käse Scheibe (6,g) 0,50€",
+                        "Cheaddar Käse Sauce (6,g) 1,00€",
+                        "Ananas Scheibe (5) 0,50€",
+                        "Jalapenos Scharf (5) 0,50€",
+                        "Spiegelei 1,00€",
+                        "Dressing (c,g,m) 1,00€",
+                        "Bacon (5) 1,00€"
+                    ],
+                    "allergens": [
+                        "a",
+                        "g"
+                    ],
+                    "additives": []
+                }
+            ]
+        }
+    ],
+    "kontaktdaten": [
+        {
+            "icon": "fas fa-clock",
+            "title": "Öffnungszeiten",
+            "details": [
+                "Montag - Sonntag",
+                "10:00 bis 23:00"
+            ]
+        },
+        {
+            "icon": "fas fa-map-marker-alt",
+            "title": "Adresse",
+            "details": [
+                "Schillerstraße 26, 72458, Albstadt"
+            ]
+        },
+        {
+            "icon": "fas fa-phone",
+            "title": "Telefonnummer",
+            "details": [
+                "+4915123676333"
+            ]
+        },
+        {
+            "icon": "fas fa-envelope",
+            "title": "Email",
+            "details": [
+                "info@adrianeberhardt.com"
+            ]
+        }
+    ],
+    "additives": {
+        "1": "1 = Koffeinhaltig",
+        "2": "2 = Chininhaltig",
+        "3": "3 = mit Farbstoffen",
+        "4": "4 = mit Süßungsmitteln",
+        "5": "5 = mit Konservierungsstoffen",
+        "6": "6 = Phosnhat",
+        "7": "7 = enthält eine Phenylalaninquelle",
+        "8": "8 = Antidioxidationsmittel",
+        "9": "9 = Geschmacksverstarker",
+        "10": "10 = Stabilisatoren",
+        "11": "11 = Schmelzsalze E452, E450, E339",
+        "12": "12 = Säurungsregulator",
+        "13": "13 = Taurinhaltig"
+    },
+    "allergens": {
+        "a": "a = Glutenhaltiges Getreide und daraus gewonnene Erzeugnisse",
+        "b": "b = Krebstiere und daraus gewonnene Erzeugnisse",
+        "c": "c = Eier von Geflügel und daraus gewonnene Erzeugnisse",
+        "d": "d = Fisch und daraus gewonnene Erzeugnisse",
+        "e": "e = Erdnüsse und daraus gewonnene Erzeugnisse",
+        "f": "f = Sojabohnen und daraus gewonnene Erzeugnisse",
+        "g": "g = Milch von Säugetieren und Milcherzeugnisse (inkl. Laktose)",
+        "h": "h = Schalenfrüchte und daraus gewonnene Erzeugnisse",
+        "l": "l = Sellerie und daraus gewonnene Erzeugnisse",
+        "m": "m = Senf und daraus gewonnene Erzeugnisse",
+        "n": "n = Sesamsamen und daraus gewonnene Erzeugnisse",
+        "o": "o = Schwefeloxid und Sulfite",
+        "p": "p = Lupinen und daraus gewonnene Erzeugnisse",
+        "r": "r = Weichtiere und daraus gewonnene Erzeugnisse"
+    }
+}

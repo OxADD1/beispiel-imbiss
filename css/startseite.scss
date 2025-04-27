@@ -1,0 +1,185 @@
+// --- GRUNDIMPORTS ---
+@import 'style';
+$button-fontsize: 1rem;
+$span-fontsize: 2.5rem;
+$h3-fontsize: 2rem;
+$fa-whatsapp-height-width: 3.125rem;
+$fa-whatsapp-fontsize: 2rem;
+$h1-title-fontsize: 3rem;
+$h1-title-fontsize-mb: 5rem;
+$categrie-abstand: 1.5rem;
+$box-padding: 2rem;
+
+
+// --- STARTBILDBEREICH --
+
+.startbild {
+
+  // Grundlegende Flexbox-Stile für den startbildbereich
+  .startbildbereich {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: $categrie-abstand;
+    align-items: center;
+
+
+    // Media Query für größere Bildschirme
+    @media (min-width: 991px) {
+      flex-wrap: nowrap;
+    }
+
+    // Stile für den Inhalt (Textbereich)
+    .content {
+      flex: 1 1 40rem;
+      text-align: center;
+
+      .btn {
+        // Grundstil für Buttons
+        white-space: nowrap;
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 1.3rem 3rem;
+        cursor: pointer;
+        font-size: $button-fontsize;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-color: $primary; // Stellen Sie sicher, dass $yellow definiert ist
+        color: $white; // Stellen Sie sicher, dass $black definiert ist
+        transition: all 0.5s ease;
+
+        // Hover-Effekt
+        &:hover {
+          letter-spacing: .2rem;
+        }
+      }
+
+      // Stil für das WhatsApp-Icon
+      .fa-whatsapp {
+        width: $fa-whatsapp-height-width;
+        height: $fa-whatsapp-height-width;
+        background-color: $primary;
+        border-radius: 50%;
+        padding: 0.6rem;
+        color: $white;
+        margin-left: 0.6rem;
+        font-size: $fa-whatsapp-fontsize;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      span {
+        font-size: 2.5rem;
+        color: $light;
+      }
+
+      h3 {
+        font-size: $h3-fontsize;
+        text-transform: capitalize;
+        color: $black;
+        padding: 1rem 0;
+      }
+    }
+
+    // Stile für den Bildbereich
+    .image {
+      flex: 1 1 40rem;
+
+      img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+        @media (min-width: 992px) {
+          max-height: 600px;  // Höhe für mittlere Bildschirme
+        }
+    
+        @media (min-width: 1200px) {
+          max-height: 900px;  // Höhe für große Bildschirme
+        }
+      }
+    
+    }
+  }
+}
+
+// --- KATEGORIENBEREICH ---
+.category {
+
+  // Stil für den allgemeinen Titelbereich
+  .title {
+    text-align: center;
+    margin-bottom: $h1-title-fontsize-mb;
+    font-size: $h1-title-fontsize;
+    color: $black;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  // Hauptbereich für die Gerichte
+  .gerichte {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); // Beispiel
+
+    gap: $categrie-abstand;
+    align-items: flex-start;
+
+    @media (min-width: 992px) {
+      grid-template-columns: repeat(3, 1fr); // Für größere Bildschirme, max 3 Spalten
+    }
+
+    // Stil für die Boxen, in denen die Gerichte angezeigt werden
+    .box {
+      padding: $box-padding;
+      position: relative;
+      background-color: $primary;
+      text-align: center;
+      height: 200px;
+      width: 100%;
+    
+      // Media Queries für größere Bildschirmgrößen
+      @media (min-width: 992px) {
+        height: 300px;
+      }
+    
+      @media (min-width: 1200px) {
+        height: 400px;
+      }
+
+      // Hover-Effekt: Ändert das Erscheinungsbild der Box beim Darüberfahren mit der Maus
+      &:hover {
+        background-color: $primary;
+
+        img {
+          opacity: 0.7;
+        }
+      }
+
+
+      // Stil für die Überschrift in der Box
+      h3 {
+        font-weight: bolder;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $white;
+        z-index: 2;
+        font-size: $h3-fontsize;
+        max-width: 90%;
+        text-transform: uppercase;
+      }
+
+      // Stil für die Bilder in der Box
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: opacity 0.3s ease;
+      }
+    }
+  }
+
+}

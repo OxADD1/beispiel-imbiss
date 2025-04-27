@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impressum</title>
+    <link rel="stylesheet" href="../lib/webfonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/menue.min.css">
+    <link rel="stylesheet" href="../css/navigation.min.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+    <link rel="stylesheet" href="../css/datenschutz-impressum.min.css">
+    <link rel="stylesheet" href="../css/warenkorb.min.css">
+</head>
+
+<body>
+    <!-- Header und Navigation hier... -->
+    <header class="header" id="main-header">
+        <nav class="navbar navbar-expand-lg navbar bg fixed-top" id="navbar">
+            <div class="container-fluid" id="navbar-container">
+                <div class="d-flex justify-content-between align-items-center w-100" id="navbar-flex">
+                    <!-- Toggle-Button für kleine Bildschirme -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        id="navbar-toggler">
+                        <span class="navbar-toggler-icon" id="toggler-icon"></span>
+                    </button>
+
+                     <!-- Logo -->
+                     <a class="navbar-brand" href="../index.html" id="navbar-logo">
+                        <span id="logo-text">BURGERBURST</span>
+                        <i class="fas fa-hamburger" id="logo-icon"></i> <!-- FontAwesome Burger Icon -->
+                    </a>
+
+                    <!-- Warenkorb-Icon (für kleine Displays) -->
+                    <div class="icons d-lg-none" id="small-screen-icons">
+                        <i class="fas fa-shopping-cart cartIconClass" id="small-cart-icon"></i>
+                        <span class="cart-count" id="small-cart-count"></span>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <!-- Nav-Links -->
+                    <ul class="navbar-nav" id="nav-list">
+                        <li class="nav-item active" id="home-item">
+                            <a class="nav-link" href="../index.html" id="home-link">Home</a>
+                        </li>
+                        <li class="nav-item" id="menu-item">
+                            <a class="nav-link" href="./menu.html" id="menu-link">Menü</a>
+                        </li>
+                        <li class="nav-item" id="contact-item">
+                            <a class="nav-link" href="./kontakt.html" id="contact-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Warenkorb-Icon (für größere Displays) -->
+                <div class="icons d-none d-lg-block" id="large-screen-icons">
+                    <i class="fas fa-shopping-cart cartIconClass" id="large-cart-icon"></i>
+                    <span class="cart-count" id="large-cart-count"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Ende der Navigationsleiste -->
+    <main class="d-i">
+
+        <!-- Impressum -->
+        <section>
+            <h1>Impressum</h1>
+
+            <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+            <p>Adrian Eberhardt<br />
+                Schillerstra&szlig;e 26<br />
+                72458 Ebingen</p>
+
+            <h2>Kontakt</h2>
+            <p>Telefon: <a href="tel:+4915123676333">+49 151 2367 6333</a><br>
+                E-Mail: <a href="mailto:info@adrianeberhardt.com">info@adrianeberhardt.com</a></p>
+
+            <h2>Redaktionell verantwortlich</h2>
+            <p>Adrian Eberhardt</p>
+
+            <h2>EU-Streitschlichtung</h2>
+            <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a
+                    href="https://ec.europa.eu/consumers/odr/" target="_blank"
+                    rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br /> Unsere E-Mail-Adresse
+                finden
+                Sie oben im Impressum.</p>
+
+            <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+                Verbraucherschlichtungsstelle
+                teilzunehmen.
+            </p>
+        </section>
+
+    </main>
+    <!-- Warenkorb -->
+    <aside id="cart-panel">
+        <div class="header-container">
+            <h1 id="warenkorb-ueberschrifft">Warenkorb</h1>
+            <!-- Tischnummer Anzeige -->
+            <p id="table-number"></p>
+            <i id="close-cart" class="fa-regular fa-circle-xmark close-cart"></i>
+        </div>
+        <div class="scroll-container">
+            <ul id="cart-items" class="cart-items-list"></ul>
+        </div>
+        <form class="checkout-form">
+            <div class="footer-container">
+
+                <!-- Schüler-Rabatt Checkbox -->
+                <div class="student-discount-option">
+                    <label for="studentDiscountCheckbox">Schüler-Rabatt:</label>
+                    <input type="checkbox" id="studentDiscountCheckbox" name="studentDiscount">
+                </div>
+
+                <div class="delivery-option">
+                    <label for="deliveryCheckbox">Liefern lassen:</label>
+                    <input type="checkbox" id="deliveryCheckbox" name="deliveryOption">
+                </div>
+
+                <div class="pickupTime-container">
+                    <label id="timeLabel" for="pickupHour">Abholzeit:</label>
+                    <select id="pickupHour" name="pickupHour" required></select>
+                    :
+                    <select id="pickupMinute" name="pickupMinute" required>
+                        <option value="sofort">Sofort</option>
+                    </select>
+                </div>
+
+                <!-- Gesamtsumme direkt unter Abholzeit -->
+                <div class="total-amount-container">
+                    <p id="total-amount">Gesamtsumme: 0€</p>
+                </div>
+
+                <div class="delivery-cost-container" style="display: none;">
+                    <label>Lieferkosten:</label>
+                    <span id="delivery-cost">2€</span>
+                </div>
+
+                <div class="delivery-address-container" style="display: none;">
+                    <label for="deliveryAddress">Lieferadresse:</label>
+                    <input type="text" id="deliveryAddress" name="deliveryAddress"
+                        placeholder="Geben Sie Ihre Adresse ein">
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="clear-cart">Warenkorb leeren</button>
+                <button onclick="orderViaWhatsApp(event)" class="whatsapp-order-btn">Per WhatsApp bestellen</button>
+            </div>
+        </form>
+    </aside>
+
+
+
+    <!-- Das Modal für die Extras -->
+
+    <div class="modal fade" id="extraModulWarenkorb" tabindex="-1" role="dialog"
+        aria-labelledby="extraModulWarenkorbLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="extraModulWarenkorbLabel">Extras bearbeiten</h5>
+                </div>
+                <div class="modal-body">
+                    <textarea id="extrasTextarea" class="form-control"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        id="closeExtrasBtn">Schließen</button>
+                    <button type="button" class="btn btn-primary" id="saveExtrasBtn">Speichern</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ende des Warenkorbs -->
+
+
+    <!-- Footer -->
+    <footer class="footer pt-md-3 pb-md-2">
+        <div class="container-fluid">
+            <div class="row footer-row">
+                <!-- Erste Spalte -->
+                <div class="col-12 col-md-4">
+                    <p class="text-center">&copy; 2025 Adrian Eberhardt</p>
+                </div>
+
+                <!-- Zweite Spalte -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex justify-content-center">
+                        <a class="footer-links d-flex flex-column justify-content-center"
+                            href="./impressum.html">Impressum</a>
+                        <a class="footer-links d-flex flex-column justify-content-center"
+                            href="./datenschutz.html">Datenschutz</a>
+                    </div>
+                </div>
+
+                <!-- Dritte Spalte -->
+                <div class="col-12 col-md-4">
+                    <p class="text-center">
+                        <img src="../images/logo.png" alt="Logo" class="webuniversal-logo">
+                        <a href="https://adrianeberhardt.com/">Adrian Eberhardt</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Ende des Footers -->
+    <!-- Loader -->
+
+
+    <div class="loader">
+        <img src="../images/loader.gif" alt="loader-gif">
+    </div>
+
+    <script type="text/javascript" src="../lib/jquery/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>

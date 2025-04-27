@@ -1,0 +1,101 @@
+// Farbdefinitionen
+$primary: #feae36; // Primärfarbe
+$white: #fff; // Weiß
+$black: #222; // Schwarz
+$light: #777; // Hellgrau
+$background: #f7f7f7;
+// Definieren Sie Ihre Standard- und responsive Höhen
+$footer-height: 90px;
+$header-height: 217px;
+$header-height-small: 176px;
+// button
+$base-primary: #feae36;
+$hover-primary: darken($base-primary, 10%);
+$active-primary: lighten($base-primary, 10%);
+
+// Importierung von Bootstrap
+@import "../lib/bootstrap/scss/bootstrap";
+
+// Stil für den ausgewählten (hervorgehobenen) Text
+::selection {
+    background-color: $primary; // Hintergrund der Auswahl ist unser primäres Orange
+    color: $black; // Textfarbe der Auswahl ist Schwarz
+}
+
+// Stil für den Scrollbalken
+::-webkit-scrollbar {
+    height: .5rem; // Höhe des horizontalen Scrollbalkens
+    width: 1rem; // Breite des vertikalen Scrollbalkens
+}
+
+// Stil für den Scrollbalken-Track (Hintergrund des Scrollbalkens)
+::-webkit-scrollbar-track {
+    background-color: transparent; // Kein sichtbarer Hintergrund für den Scrollbalken-Track
+}
+
+// Stil für den Scrollbalken-Knopf (Scrollbalken-Thumb)
+::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    background-color: $primary; // Farbe des beweglichen Teils des Scrollbalkens
+}
+
+section{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:2rem;
+ }
+
+// Grundlegende Stile für das HTML-Element
+html {
+    overflow-x: hidden; // Verhindert horizontales Scrollen (wenn Inhalte über die Breite hinausgehen)
+    scroll-behavior: smooth; // Ermöglicht ein weiches Scrollen bei Ankersprüngen
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    background-color: $background; // Setzt den Hintergrund des gesamten Inhalts
+    margin-bottom: 40px; // Setzt den unteren Abstand des body-Elements
+}
+
+*{
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+ }
+
+a {
+    text-decoration: none; // Entfernt Unterstreichungen von Links, ist bereits in * definiert, also redundant
+}
+
+button {
+    border: none;
+    outline: none;
+  }
+
+// Grundlegende Loader-Stilisierung
+.loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: $white;
+    justify-content: center;
+    align-items: center;
+}
+
+// Spezielle Stilisierung für den Loader, wenn der Body die .loading-Klasse hat
+body.loading .loader {
+    display: flex;
+}
+
+// Spezifische Stilisierung für das Bild im Loader
+.loader img {
+    width: 35rem;
+}

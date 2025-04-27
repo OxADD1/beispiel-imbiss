@@ -1,0 +1,240 @@
+// ------ Importe ------
+@import "style";
+@import "modale";
+
+// ------ Allgemeine Stile ------
+.button-container {
+
+    &:hover {
+        border-color: currentColor;
+    }
+
+    // Gemeinsame Stile
+    .clear-cart,
+    .whatsapp-order-btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+
+        &:active {
+            transform: scale(0.95);
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    // Button-spezifische Stile
+    .clear-cart {
+        background-color: #f44336;
+        color: #fff;
+
+        &:hover {
+            background-color: #d32f2f;
+        }
+
+        &:active {
+            background-color: #b71c1c;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0.125rem rgba(244, 67, 54, 0.5);
+        }
+    }
+
+    .whatsapp-order-btn {
+        background-color: #25d366;
+        color: #fff;
+
+        &:hover {
+            background-color: #128c7e;
+        }
+
+        &:active {
+            background-color: #0a5a4a;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0.125rem rgba(37, 211, 102, 0.5);
+        }
+    }
+
+    // Media Queries
+    @media screen and (max-width: 768px) {
+
+        .clear-cart,
+        .whatsapp-order-btn {
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+        }
+    }
+}
+
+
+// ------ Warenkorb-Stile ------
+aside#cart-panel {
+    display: flex;
+    flex-direction: column;
+    margin-top: $header-height;
+    padding: 0;
+    border-radius: 12px; // Runde Ecken
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Schatten für Tiefe
+    position: fixed;
+    max-width: 800px;
+    max-height: calc(100vh - $header-height - $footer-height);
+    right: 0;
+    transform: translateX(100%);
+    width: 80%;
+    background: #f8f9fa;
+    padding: 5%;
+    overflow-y: auto;
+    z-index: 999;
+    transition: transform 0.5s ease-in-out;
+
+    @media screen and (max-width: 991px) {
+        width: 100%;
+    }
+
+ 
+    
+  
+
+    #warenkorb-ueberschrifft {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.4rem;
+    }
+
+    @media (max-width: 768px) {
+        #warenkorb-ueberschrifft {
+            font-size: 1.5rem;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            text-align: left;
+        }
+    }
+}
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    /* Vertikale Zentrierung */
+}
+
+
+#cart-items li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+ul#cart-items {
+
+    overflow-y: auto;
+}
+
+#cart-icon {
+    cursor: pointer;
+}
+
+aside#cart-panel.show {
+    transform: translateX(0);
+}
+
+// ------ Weitere Warenkorb-Optionen ------
+.student-discount-option,
+.delivery-option {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10px;
+
+    label {
+        flex: 1;
+    }
+}
+
+.total-amount-container,
+.pickupTime-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+// ------ Dropdown-Stile ------
+select {
+    background-color: $background;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 0.85rem;
+}
+
+// ------ Symbole im Warenkorb ------
+.trash-can-icon,
+.quantity-select,
+.add-extra-icon,
+.remove-checkbox-option-icon,
+.remove-extra-icon {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.trash-can-icon,
+.remove-checkbox-option-icon,
+.add-extra-icon,
+.remove-extra-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: $black;
+}
+
+.remove-checkbox-option-icon,
+.remove-extra-icon {
+    align-self: center;
+}
+
+
+
+
+// ------ Schließen-Taste ------
+.close-cart {
+    position: absolute;
+    top: 0.3rem;
+    right: 1rem;
+    color: #f44336; // Rote Farbe für das Icon
+    font-size: 24px; // Größe des Icons
+    cursor: pointer;
+
+    &:hover {
+        color: #d32f2f; // Dunkleres Rot beim Hover
+    }
+}
+
+
+
+
+
+#cart-items hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.cart-item-name {
+    font-weight: bold;
+}
+
+
+
