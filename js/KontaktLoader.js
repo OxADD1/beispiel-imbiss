@@ -1,11 +1,11 @@
 // KontaktLoader.js
 
 // Überprüft, ob sich der Benutzer auf der Startseite befindet
-const istStartseite = document.location.pathname === '/' || document.location.pathname === '/index.html';
+const istStartseite = document.location.pathname.endsWith('/') || document.location.pathname.endsWith('/index.html');
 
 // Setzt den JSON- und Bildpfad abhängig von der aktuellen Seite
-const jsonPfad = istStartseite ? '/json/menu.json' : '../json/menu.json';
-const bildPfad = istStartseite ? '/images/' : '../images/';
+const jsonPfad = istStartseite ? './json/menu.json' : '../json/menu.json';
+const bildPfad = istStartseite ? './images/' : '../images/';
 
 /**
  * Lädt und zeigt die Kontaktdaten.
